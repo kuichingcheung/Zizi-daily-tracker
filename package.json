@@ -1,0 +1,8 @@
+{
+  "name": "zizi-daily-tracker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}

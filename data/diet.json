@@ -1,0 +1,9 @@
+{
+  "rules": {
+    "kcal": "intake between 95% and 105% of target",
+    "protein": "intake >= 95% of target",
+    "carbs": "intake >= 95% of target",
+    "fat": "intake <= 105% of target"
+  },
+  "days": []
+}
