@@ -50,7 +50,9 @@ test('seed files keep the rules and Trona baseline', () => {
       note: '已記晚餐；全日尚欠大量蛋白與熱量。',
     },
   ]);
-  assert.deepEqual(trainingFile, { days: [] });
+  assert.deepEqual(trainingFile.days, [
+    { date: '2026-10-11', trained: false, parts: ['休息'] },
+  ]);
   assert.deepEqual(weighinsFile.entries, [
     {
       date: '2026-10-11',
