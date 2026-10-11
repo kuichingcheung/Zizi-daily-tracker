@@ -12,12 +12,14 @@ Zizi 跟 Road to Cbum 同一套畫面同達標規則，但係 **Trona 自己嘅�
 
 ## 開 GitHub Pages
 
+Pages 仲未開（建立網站需要 repo 管理員權限）。請喺 GitHub 做一次：
+
 1. 打開呢個 repo → **Settings** → **Pages**
 2. **Build and deployment** → Source 選 **Deploy from a branch**
 3. Branch 選 **main**，資料夾選 **/ (root)**
 4. Save
 
-幾分鐘後網址會係上面條。如果 Pages 已經開咗，呢四步可以跳過。
+幾分鐘後網址會係上面條。
 
 ## 整 fine-grained token
 
