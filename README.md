@@ -142,6 +142,33 @@ Trona（女，33 歲，157 cm）每日預設目標係 **1300 kcal／蛋白質 11
 - `smm`（骨骼肌）、`bodyFat`（體脂 %）、`note` 可省略
 - App 只讀，唔會改呢個檔
 
+## 教練推送
+
+`scripts/push_diet.py` 用 GitHub Contents API 寫 `data/diet.json` 同 `data/weighins.json`，唔使開 App 改碼。只用 Python 3 標準庫。Token 放環境變數，唔好 commit 入 repo。
+
+需要 fine-grained token，只限 **Zizi-daily-tracker** 嘅 **Contents 讀寫**。預設 repo 係 `kuichingcheung/Zizi-daily-tracker`，分支 `main`。可以改 `ZIZI_OWNER`、`ZIZI_REPO`、`ZIZI_BRANCH`。
+
+```bash
+export ZIZI_GITHUB_TOKEN=github_pat_...
+
+python3 scripts/push_diet.py meal --date 2026-10-11 --time 20:41 --name 晚餐 \
+  --item "小鮑魚 2 隻" --item "白飯（約 180 克熟重）" \
+  --kcal 370 --protein 21 --carbs 66 --fat 2
+
+python3 scripts/push_diet.py note --date 2026-10-11 --text "已記晚餐；全日尚欠大量蛋白與熱量。"
+python3 scripts/push_diet.py complete --date 2026-10-11
+python3 scripts/push_diet.py incomplete --date 2026-10-11
+python3 scripts/push_diet.py weighin --date 2026-10-11 --weight 54.4 --body-fat 31.8 --note "起點"
+```
+
+`--date` 省略就用香港時間今日。`meal` 會加一餐，再用該日全部餐單加總做 intake。當日未有紀錄就用檔入面嘅 `defaultTarget` 開一日；未有 `defaultTarget` 就用 1300／110／115／45，而且 `complete` 係 false。`weighin` 按日期更新或新增，並保持日期排序。寫入撞 sha（409／422）會再讀一次，再試一次。
+
+冇真 token 都可以跑：
+
+```bash
+python3 -m unittest test.test_push_diet
+```
+
 ## 本機預覽
 
 唔好用 `file://` 直接開，瀏覽器會擋 `fetch`。
