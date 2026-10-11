@@ -68,7 +68,7 @@ Token 只會存喺部手機嘅 `localStorage`，唔會 commit 入 repo。清除�
 
 只改 `data/diet.json` 同 `data/weighins.json`。`data/training.json` 由 App 寫。Commit 之前請先 `git pull`，避免同手機儲存撞 sha。
 
-Trona（女，33 歲，157 cm）每日預設目標係 **1300 kcal／蛋白質 110 g／碳水 115 g／脂肪 45 g**（`defaultTarget`）。估算：Mifflin BMR 約 1199，輕活動 TDEE 約 1680，缺口約 380 kcal；1300 係進取減重嘅實用下限。蛋白質約 2 g/kg，脂肪 45 g，碳水補返餘數。目標約兩個月由 54.4 kg（體脂 31.8%）減到 50 kg。`2026-10-11` 係起點體重，當日飲食 `complete: false`、未有餐單。訓練檔仍然係空陣列。
+Trona（女，33 歲，157 cm）每日預設目標係 **1300 kcal／蛋白質 110 g／碳水 115 g／脂肪 45 g**（`defaultTarget`）。估算：Mifflin BMR 約 1199，輕活動 TDEE 約 1680，缺口約 380 kcal；1300 係進取減重嘅實用下限。蛋白質約 2 g/kg，脂肪 45 g，碳水補返餘數。目標約兩個月由 54.4 kg（體脂 31.8%）減到 50 kg。`2026-10-11` 係起點體重。當日飲食 `complete: false`，已記晚餐（370 kcal），全日尚未完成。訓練檔仍然係空陣列。
 
 ### `data/diet.json`
 
@@ -111,7 +111,7 @@ Trona（女，33 歲，157 cm）每日預設目標係 **1300 kcal／蛋白質 11
 - 新一日 append 入 `days`，唔好改欄位名
 - `defaultTarget`：教練／bot 參考用嘅預設目標，App 顯示以當日 `target` 為準
 
-上面個例子只係格式示範，唔係真實餐單。Repo 入面而家有 `2026-10-11`（進行中、餐單未有），目標 1300／110／115／45。
+上面個例子只係格式示範。Repo 入面 `2026-10-11` 仍然進行中，目標 1300／110／115／45，已記一餐晚餐。
 
 ### `data/training.json`
 

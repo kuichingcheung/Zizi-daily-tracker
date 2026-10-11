@@ -202,7 +202,7 @@ function renderDiet(day) {
           <span class="meal-name">${esc(meal.name || '')}</span>
           <span class="meal-kcal">${formatNum(meal.kcal)} kcal</span>
         </summary>
-        <p class="meal-items">${esc(meal.items || '')}</p>
+        <p class="meal-items">${esc(Array.isArray(meal.items) ? meal.items.join('、') : (meal.items || ''))}</p>
         <p class="meal-macros">蛋白質 ${formatNum(meal.protein)} · 碳水 ${formatNum(meal.carbs)} · 脂肪 ${formatNum(meal.fat)}</p>
       </details>`).join('')
     : '<p class="hint">未有餐單</p>';
