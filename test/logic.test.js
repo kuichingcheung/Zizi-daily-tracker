@@ -22,16 +22,33 @@ const dietFile = JSON.parse(readFileSync(new URL('../data/diet.json', import.met
 const trainingFile = JSON.parse(readFileSync(new URL('../data/training.json', import.meta.url), 'utf8'));
 const weighinsFile = JSON.parse(readFileSync(new URL('../data/weighins.json', import.meta.url), 'utf8'));
 
-test('seed files keep the schema and start empty', () => {
+test('seed files keep the rules and Trona baseline', () => {
   assert.deepEqual(dietFile.rules, {
     kcal: 'intake between 95% and 105% of target',
     protein: 'intake >= 95% of target',
     carbs: 'intake >= 95% of target',
     fat: 'intake <= 105% of target',
   });
-  assert.deepEqual(dietFile.days, []);
+  assert.deepEqual(dietFile.defaultTarget, { kcal: 1300, protein: 110, carbs: 115, fat: 45 });
+  assert.deepEqual(dietFile.days, [
+    {
+      date: '2026-10-11',
+      complete: false,
+      target: { kcal: 1300, protein: 110, carbs: 115, fat: 45 },
+      intake: { kcal: 0, protein: 0, carbs: 0, fat: 0 },
+      meals: [],
+      note: '營養目標：1300 kcal／P110／C115／F45。起點 54.4 kg、體脂 31.8%；兩個月目標 50 kg。',
+    },
+  ]);
   assert.deepEqual(trainingFile, { days: [] });
-  assert.deepEqual(weighinsFile, { entries: [] });
+  assert.deepEqual(weighinsFile.entries, [
+    {
+      date: '2026-10-11',
+      weight: 54.4,
+      bodyFat: 31.8,
+      note: '起點；目標兩個月內減至 50 kg',
+    },
+  ]);
 });
 
 test('delta text compares intake with the target number', () => {

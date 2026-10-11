@@ -5,5 +5,30 @@
     "carbs": "intake >= 95% of target",
     "fat": "intake <= 105% of target"
   },
-  "days": []
+  "defaultTarget": {
+    "kcal": 1300,
+    "protein": 110,
+    "carbs": 115,
+    "fat": 45
+  },
+  "days": [
+    {
+      "date": "2026-10-11",
+      "complete": false,
+      "target": {
+        "kcal": 1300,
+        "protein": 110,
+        "carbs": 115,
+        "fat": 45
+      },
+      "intake": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0
+      },
+      "meals": [],
+      "note": "營養目標：1300 kcal／P110／C115／F45。起點 54.4 kg、體脂 31.8%；兩個月目標 50 kg。"
+    }
+  ]
 }
