@@ -57,6 +57,36 @@
         }
       ],
       "note": "已記 2 餐；全日尚欠蛋白同熱量。"
+    },
+    {
+      "date": "2026-10-12",
+      "complete": false,
+      "target": {
+        "kcal": 1300,
+        "protein": 110,
+        "carbs": 115,
+        "fat": 45
+      },
+      "intake": {
+        "kcal": 50,
+        "protein": 1,
+        "carbs": 11,
+        "fat": 0.5
+      },
+      "meals": [
+        {
+          "time": "07:21",
+          "name": "早餐",
+          "items": [
+            "Beech-Nut 果蓉袋 1 包（99g）"
+          ],
+          "kcal": 50,
+          "protein": 1,
+          "carbs": 11,
+          "fat": 0.5
+        }
+      ],
+      "note": "已記 1 餐。"
     }
   ]
 }
