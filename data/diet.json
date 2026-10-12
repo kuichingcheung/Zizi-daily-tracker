@@ -68,9 +68,9 @@
         "fat": 45
       },
       "intake": {
-        "kcal": 50,
+        "kcal": 80,
         "protein": 1,
-        "carbs": 11,
+        "carbs": 16,
         "fat": 0.5
       },
       "meals": [
@@ -84,9 +84,20 @@
           "protein": 1,
           "carbs": 11,
           "fat": 0.5
+        },
+        {
+          "time": "12:22",
+          "name": "飲品",
+          "items": [
+            "DyDo Café BREWED BLACK 黑咖啡 1 支（500ml）"
+          ],
+          "kcal": 30,
+          "protein": 0,
+          "carbs": 5,
+          "fat": 0
         }
       ],
-      "note": "已記 1 餐。"
+      "note": "已記 2 餐。"
     }
   ]
 }
