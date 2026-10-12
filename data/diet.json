@@ -68,10 +68,10 @@
         "fat": 45
       },
       "intake": {
-        "kcal": 80,
-        "protein": 1,
-        "carbs": 16,
-        "fat": 0.5
+        "kcal": 620,
+        "protein": 25,
+        "carbs": 84,
+        "fat": 18.5
       },
       "meals": [
         {
@@ -95,9 +95,22 @@
           "protein": 0,
           "carbs": 5,
           "fat": 0
+        },
+        {
+          "time": "12:27",
+          "name": "午餐",
+          "items": [
+            "清湯米粉（約1碗）",
+            "蛋 2 隻",
+            "冬菇豆卜煮椰菜蘿蔔"
+          ],
+          "kcal": 540,
+          "protein": 24,
+          "carbs": 68,
+          "fat": 18
         }
       ],
-      "note": "已記 2 餐。"
+      "note": "已記 3 餐。"
     }
   ]
 }
