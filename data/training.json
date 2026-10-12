@@ -1,5 +1,6 @@
 {
   "days": [
-    {"date": "2026-10-11", "trained": false, "parts": ["休息"]}
+    {"date": "2026-10-11", "trained": false, "parts": ["休息"]},
+    {"date": "2026-10-12", "trained": false, "parts": ["休息"]}
   ]
 }
