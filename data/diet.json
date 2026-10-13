@@ -138,6 +138,36 @@
         }
       ],
       "note": "已記 5 餐。"
+    },
+    {
+      "date": "2026-10-13",
+      "complete": false,
+      "target": {
+        "kcal": 1300,
+        "protein": 110,
+        "carbs": 115,
+        "fat": 45
+      },
+      "intake": {
+        "kcal": 140,
+        "protein": 8,
+        "carbs": 12,
+        "fat": 6.5
+      },
+      "meals": [
+        {
+          "time": "08:24",
+          "name": "早餐",
+          "items": [
+            "豆漿 1 支（約 250ml）"
+          ],
+          "kcal": 140.0,
+          "protein": 8.0,
+          "carbs": 12.0,
+          "fat": 6.5
+        }
+      ],
+      "note": "已記 1 餐。"
     }
   ]
 }
