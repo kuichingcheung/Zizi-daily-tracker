@@ -270,6 +270,36 @@
         }
       ],
       "note": "已記 4 餐。補記撈檬＋雞肉。"
+    },
+    {
+      "date": "2026-10-15",
+      "complete": false,
+      "target": {
+        "kcal": 1300,
+        "protein": 110,
+        "carbs": 115,
+        "fat": 45
+      },
+      "intake": {
+        "kcal": 90,
+        "protein": 1,
+        "carbs": 17,
+        "fat": 2
+      },
+      "meals": [
+        {
+          "time": "07:19",
+          "name": "早餐",
+          "items": [
+            "果蓉袋 1 包（113g：蘋果／乳酪／燕麥／奇亞籽）"
+          ],
+          "kcal": 90.0,
+          "protein": 1.0,
+          "carbs": 17.0,
+          "fat": 2.0
+        }
+      ],
+      "note": "已記 1 餐。"
     }
   ]
 }
