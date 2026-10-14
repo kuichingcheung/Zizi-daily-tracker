@@ -195,6 +195,37 @@
         }
       ],
       "note": "已記 3 餐。"
+    },
+    {
+      "date": "2026-10-14",
+      "complete": false,
+      "target": {
+        "kcal": 1300,
+        "protein": 110,
+        "carbs": 115,
+        "fat": 45
+      },
+      "intake": {
+        "kcal": 115,
+        "protein": 2.5,
+        "carbs": 21.5,
+        "fat": 3
+      },
+      "meals": [
+        {
+          "time": "08:17",
+          "name": "早餐",
+          "items": [
+            "Beech-Nut breakfast 果蓉袋 1 包（99g）",
+            "有奶咖啡 約 75ml"
+          ],
+          "kcal": 115.0,
+          "protein": 2.5,
+          "carbs": 21.5,
+          "fat": 3.0
+        }
+      ],
+      "note": "已記 1 餐。"
     }
   ]
 }
