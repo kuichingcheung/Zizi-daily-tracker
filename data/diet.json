@@ -338,6 +338,37 @@
         }
       ],
       "note": "已記 4 餐。"
+    },
+    {
+      "date": "2026-10-16",
+      "complete": false,
+      "target": {
+        "kcal": 1300,
+        "protein": 110,
+        "carbs": 115,
+        "fat": 45
+      },
+      "intake": {
+        "kcal": 170,
+        "protein": 7.5,
+        "carbs": 16,
+        "fat": 8.3
+      },
+      "meals": [
+        {
+          "time": "07:16",
+          "name": "早餐",
+          "items": [
+            "果蓉袋 1 包（113g：蘋果／巴西莓／椰奶／燕麥／奇亞籽）",
+            "雞蛋 1 隻"
+          ],
+          "kcal": 170.0,
+          "protein": 7.5,
+          "carbs": 16.0,
+          "fat": 8.3
+        }
+      ],
+      "note": "已記 1 餐。"
     }
   ]
 }
