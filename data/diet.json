@@ -407,10 +407,10 @@
         "fat": 45
       },
       "intake": {
-        "kcal": 410,
-        "protein": 11,
-        "carbs": 53,
-        "fat": 17
+        "kcal": 690,
+        "protein": 23,
+        "carbs": 81,
+        "fat": 29
       },
       "meals": [
         {
@@ -425,9 +425,20 @@
           "protein": 11.0,
           "carbs": 53.0,
           "fat": 17.0
+        },
+        {
+          "time": "17:05",
+          "name": "小食",
+          "items": [
+            "辣肉腸 pizza 1 角"
+          ],
+          "kcal": 280.0,
+          "protein": 12.0,
+          "carbs": 28.0,
+          "fat": 12.0
         }
       ],
-      "note": "已記 1 餐。"
+      "note": "已記 2 餐。"
     }
   ]
 }
