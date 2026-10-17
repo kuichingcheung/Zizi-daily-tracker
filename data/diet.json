@@ -396,6 +396,38 @@
         }
       ],
       "note": "已記 3 餐。"
+    },
+    {
+      "date": "2026-10-17",
+      "complete": false,
+      "target": {
+        "kcal": 1300,
+        "protein": 110,
+        "carbs": 115,
+        "fat": 45
+      },
+      "intake": {
+        "kcal": 410,
+        "protein": 11,
+        "carbs": 53,
+        "fat": 17
+      },
+      "meals": [
+        {
+          "time": "12:02",
+          "name": "早餐",
+          "items": [
+            "紅茶菠蘿油 1/4",
+            "奶油豬 1/2",
+            "沙嗲牛肉公仔麵 1/3"
+          ],
+          "kcal": 410.0,
+          "protein": 11.0,
+          "carbs": 53.0,
+          "fat": 17.0
+        }
+      ],
+      "note": "已記 1 餐。"
     }
   ]
 }
