@@ -450,10 +450,10 @@
         "fat": 45
       },
       "intake": {
-        "kcal": 90,
-        "protein": 1,
-        "carbs": 17,
-        "fat": 2
+        "kcal": 305,
+        "protein": 12,
+        "carbs": 41,
+        "fat": 10
       },
       "meals": [
         {
@@ -466,6 +466,18 @@
           "protein": 1.0,
           "carbs": 17.0,
           "fat": 2.0
+        },
+        {
+          "time": "19:30",
+          "name": "午餐",
+          "items": [
+            "餃子4隻",
+            "白菜少量"
+          ],
+          "kcal": 215.0,
+          "protein": 11.0,
+          "carbs": 24.0,
+          "fat": 8.0
         }
       ]
     }
