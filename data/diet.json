@@ -450,10 +450,10 @@
         "fat": 45
       },
       "intake": {
-        "kcal": 650,
-        "protein": 24,
-        "carbs": 101,
-        "fat": 16
+        "kcal": 694,
+        "protein": 24.7,
+        "carbs": 105.4,
+        "fat": 18.7
       },
       "meals": [
         {
@@ -491,6 +491,17 @@
           "protein": 12.0,
           "carbs": 60.0,
           "fat": 6.0
+        },
+        {
+          "time": "19:36",
+          "name": "撈飯配料",
+          "items": [
+            "雲南素食菌油辣椒10g"
+          ],
+          "kcal": 44.0,
+          "protein": 0.7,
+          "carbs": 4.4,
+          "fat": 2.7
         }
       ]
     }
