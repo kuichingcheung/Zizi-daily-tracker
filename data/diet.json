@@ -439,6 +439,35 @@
         }
       ],
       "note": "已記 2 餐。"
+    },
+    {
+      "date": "2026-10-23",
+      "complete": false,
+      "target": {
+        "kcal": 1300,
+        "protein": 110,
+        "carbs": 115,
+        "fat": 45
+      },
+      "intake": {
+        "kcal": 90,
+        "protein": 1,
+        "carbs": 17,
+        "fat": 2
+      },
+      "meals": [
+        {
+          "time": "11:03",
+          "name": "早餐",
+          "items": [
+            "Beech-Nut 果蓉（蘋果希臘乳酪燕麥奇亞籽）1袋113g"
+          ],
+          "kcal": 90.0,
+          "protein": 1.0,
+          "carbs": 17.0,
+          "fat": 2.0
+        }
+      ]
     }
   ]
 }
