@@ -450,10 +450,10 @@
         "fat": 45
       },
       "intake": {
-        "kcal": 305,
-        "protein": 12,
-        "carbs": 41,
-        "fat": 10
+        "kcal": 650,
+        "protein": 24,
+        "carbs": 101,
+        "fat": 16
       },
       "meals": [
         {
@@ -478,6 +478,19 @@
           "protein": 11.0,
           "carbs": 24.0,
           "fat": 8.0
+        },
+        {
+          "time": "19:30",
+          "name": "晚餐",
+          "items": [
+            "白飯150g",
+            "雞蛋1隻",
+            "青瓜＋粟米"
+          ],
+          "kcal": 345.0,
+          "protein": 12.0,
+          "carbs": 60.0,
+          "fat": 6.0
         }
       ]
     }
