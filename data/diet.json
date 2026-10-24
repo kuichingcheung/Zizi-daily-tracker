@@ -515,10 +515,10 @@
         "fat": 45
       },
       "intake": {
-        "kcal": 1410,
-        "protein": 81,
-        "carbs": 140,
-        "fat": 60
+        "kcal": 1580,
+        "protein": 111,
+        "carbs": 143,
+        "fat": 63
       },
       "meals": [
         {
@@ -547,6 +547,17 @@
           "protein": 38.0,
           "carbs": 86.0,
           "fat": 30.0
+        },
+        {
+          "time": "20:01",
+          "name": "蛋白飲",
+          "items": [
+            "Quest蛋白飲1支325ml"
+          ],
+          "kcal": 170.0,
+          "protein": 30.0,
+          "carbs": 3.0,
+          "fat": 3.0
         }
       ]
     }
