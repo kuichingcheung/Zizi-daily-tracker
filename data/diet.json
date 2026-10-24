@@ -504,6 +504,37 @@
           "fat": 2.7
         }
       ]
+    },
+    {
+      "date": "2026-10-24",
+      "complete": false,
+      "target": {
+        "kcal": 1300,
+        "protein": 110,
+        "carbs": 115,
+        "fat": 45
+      },
+      "intake": {
+        "kcal": 655,
+        "protein": 43,
+        "carbs": 54,
+        "fat": 30
+      },
+      "meals": [
+        {
+          "time": "13:37",
+          "name": "午餐",
+          "items": [
+            "雞絲扎肉撈檬",
+            "沙律",
+            "雞翼1隻"
+          ],
+          "kcal": 655.0,
+          "protein": 43.0,
+          "carbs": 54.0,
+          "fat": 30.0
+        }
+      ]
     }
   ]
 }
