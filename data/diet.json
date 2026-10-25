@@ -571,10 +571,10 @@
         "fat": 45
       },
       "intake": {
-        "kcal": 980,
-        "protein": 61,
-        "carbs": 89,
-        "fat": 38
+        "kcal": 1120,
+        "protein": 64,
+        "carbs": 111,
+        "fat": 42
       },
       "meals": [
         {
@@ -599,6 +599,17 @@
           "protein": 31.0,
           "carbs": 85.0,
           "fat": 35.0
+        },
+        {
+          "time": "13:52",
+          "name": "飲品",
+          "items": [
+            "凍奶茶少甜少冰"
+          ],
+          "kcal": 140.0,
+          "protein": 3.0,
+          "carbs": 22.0,
+          "fat": 4.0
         }
       ]
     }
