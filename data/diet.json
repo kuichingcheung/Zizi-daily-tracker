@@ -563,7 +563,7 @@
     },
     {
       "date": "2026-10-25",
-      "complete": false,
+      "complete": true,
       "target": {
         "kcal": 1300,
         "protein": 110,
@@ -571,10 +571,10 @@
         "fat": 45
       },
       "intake": {
-        "kcal": 1120,
-        "protein": 64,
-        "carbs": 111,
-        "fat": 42
+        "kcal": 1750,
+        "protein": 137,
+        "carbs": 119,
+        "fat": 74
       },
       "meals": [
         {
@@ -610,6 +610,20 @@
           "protein": 3.0,
           "carbs": 22.0,
           "fat": 4.0
+        },
+        {
+          "time": "22:16",
+          "name": "晚餐",
+          "items": [
+            "湯1碗",
+            "豆腐6-7舊",
+            "三文魚5嚿",
+            "雞肉80g"
+          ],
+          "kcal": 630.0,
+          "protein": 73.0,
+          "carbs": 8.0,
+          "fat": 32.0
         }
       ]
     }
