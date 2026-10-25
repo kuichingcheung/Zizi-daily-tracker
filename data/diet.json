@@ -571,10 +571,10 @@
         "fat": 45
       },
       "intake": {
-        "kcal": 170,
-        "protein": 30,
-        "carbs": 4,
-        "fat": 3
+        "kcal": 980,
+        "protein": 61,
+        "carbs": 89,
+        "fat": 38
       },
       "meals": [
         {
@@ -587,6 +587,18 @@
           "protein": 30.0,
           "carbs": 4.0,
           "fat": 3.0
+        },
+        {
+          "time": "13:51",
+          "name": "午餐",
+          "items": [
+            "沙嗲牛肉公仔麵1碗",
+            "花生醬煉奶豬仔包半份"
+          ],
+          "kcal": 810.0,
+          "protein": 31.0,
+          "carbs": 85.0,
+          "fat": 35.0
         }
       ]
     }
