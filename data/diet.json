@@ -626,6 +626,35 @@
           "fat": 25
         }
       ]
+    },
+    {
+      "date": "2026-10-26",
+      "complete": false,
+      "target": {
+        "kcal": 1300,
+        "protein": 110,
+        "carbs": 115,
+        "fat": 45
+      },
+      "intake": {
+        "kcal": 170,
+        "protein": 30,
+        "carbs": 4,
+        "fat": 3
+      },
+      "meals": [
+        {
+          "time": "07:17",
+          "name": "早餐",
+          "items": [
+            "Quest蛋白飲1支325ml"
+          ],
+          "kcal": 170.0,
+          "protein": 30.0,
+          "carbs": 4.0,
+          "fat": 3.0
+        }
+      ]
     }
   ]
 }
