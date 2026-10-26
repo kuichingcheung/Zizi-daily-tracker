@@ -637,9 +637,9 @@
         "fat": 45
       },
       "intake": {
-        "kcal": 545,
-        "protein": 62,
-        "carbs": 48,
+        "kcal": 650,
+        "protein": 63,
+        "carbs": 75,
         "fat": 10
       },
       "meals": [
@@ -666,6 +666,17 @@
           "protein": 32.0,
           "carbs": 44.0,
           "fat": 7.0
+        },
+        {
+          "time": "20:59",
+          "name": "小食",
+          "items": [
+            "香蕉1條"
+          ],
+          "kcal": 105.0,
+          "protein": 1.0,
+          "carbs": 27.0,
+          "fat": 0.0
         }
       ]
     }
