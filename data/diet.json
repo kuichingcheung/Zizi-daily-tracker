@@ -637,10 +637,10 @@
         "fat": 45
       },
       "intake": {
-        "kcal": 170,
-        "protein": 30,
-        "carbs": 4,
-        "fat": 3
+        "kcal": 545,
+        "protein": 62,
+        "carbs": 48,
+        "fat": 10
       },
       "meals": [
         {
@@ -653,6 +653,19 @@
           "protein": 30.0,
           "carbs": 4.0,
           "fat": 3.0
+        },
+        {
+          "time": "14:25",
+          "name": "午餐",
+          "items": [
+            "譚仔清湯少米線",
+            "雞肉80g",
+            "酸菜80g"
+          ],
+          "kcal": 375.0,
+          "protein": 32.0,
+          "carbs": 44.0,
+          "fat": 7.0
         }
       ]
     }
