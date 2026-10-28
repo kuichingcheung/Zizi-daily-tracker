@@ -733,10 +733,10 @@
         "fat": 45
       },
       "intake": {
-        "kcal": 170,
-        "protein": 30,
-        "carbs": 4,
-        "fat": 3
+        "kcal": 1005,
+        "protein": 83,
+        "carbs": 42,
+        "fat": 54
       },
       "meals": [
         {
@@ -749,6 +749,19 @@
           "protein": 30.0,
           "carbs": 4.0,
           "fat": 3.0
+        },
+        {
+          "time": "13:25",
+          "name": "午餐",
+          "items": [
+            "壽喜燒湯底",
+            "牛肉250g",
+            "烏冬少量"
+          ],
+          "kcal": 835.0,
+          "protein": 53.0,
+          "carbs": 38.0,
+          "fat": 51.0
         }
       ]
     }
