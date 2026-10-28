@@ -690,6 +690,38 @@
           "fat": 3.0
         }
       ]
+    },
+    {
+      "date": "2026-10-27",
+      "complete": false,
+      "target": {
+        "kcal": 1300,
+        "protein": 110,
+        "carbs": 115,
+        "fat": 45
+      },
+      "intake": {
+        "kcal": 420,
+        "protein": 22,
+        "carbs": 48,
+        "fat": 15
+      },
+      "meals": [
+        {
+          "time": "13:22",
+          "name": "晚餐",
+          "items": [
+            "壽司郎：炸蝦牛油果壽司2舊",
+            "壽喜燒牛肉壽司3舊",
+            "玉子壽司2舊"
+          ],
+          "kcal": 420.0,
+          "protein": 22.0,
+          "carbs": 48.0,
+          "fat": 15.0
+        }
+      ],
+      "note": "補記"
     }
   ]
 }
